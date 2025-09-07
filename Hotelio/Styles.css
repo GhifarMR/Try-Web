@@ -4,13 +4,13 @@ body {
 }
 
 #logo {
-    font-size: 22px;   /* sebelumnya 30px */
+    font-size: 22px;
     margin-left: 20px;
     margin-right: 0px;
     font-weight: bold;
     animation-name: animLogo;
     animation-duration: 2s;
-    font-family: Arial, sans-serif; /* biar lebih clean */
+    font-family: Arial, sans-serif;
 }
 
 #logo:hover {
@@ -200,4 +200,5 @@ body {
 
 .search-btn:hover {
   background-color: hsl(271, 95%, 22%);
+
 }
