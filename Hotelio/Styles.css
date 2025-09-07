@@ -10,7 +10,7 @@ body {
     font-weight: bold;
     animation-name: animLogo;
     animation-duration: 2s;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
 }
 
 #logo:hover {
@@ -74,9 +74,13 @@ body {
     font-weight: bold;
 }
 
+.navLinks a:active {
+    color: purple;
+}
+
 .navButtons {
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 #btnLog {
@@ -94,6 +98,11 @@ body {
 
 #btnLog:hover, #btnReg:hover {
     background-color: black;
+    color: white;
+}
+
+#btnLog:active, #btnReg:active {
+    background-color: purple;
     color: white;
 }
 
@@ -189,16 +198,21 @@ body {
 }
 
 .search-btn {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 12px 24px;
-  border: none;
+  border: solid 2px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 15px;
 }
 
 .search-btn:hover {
-  background-color: hsl(271, 95%, 22%);
+  background-color: black;
+  color: white;
+}
 
+.search-btn:active {
+  background-color: purple;
+  color: white;
 }
