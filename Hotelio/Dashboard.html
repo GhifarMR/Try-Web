@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotelio.com</title>
-    <link rel="stylesheet" href="Styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotelio.com</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/139/139899.png">
+  <link rel="stylesheet" href="Styles.css">
 </head>
+
 <body>
-    <!-- Navigation Bar -->
-    <div class="navBar">
-        <div>
-            <a id="logo">HOTELIO</a>
-            <a id="subLogo">.com</a>
-        </div>
-        <div class="navLinks">
-            <a href="">Home</a>
-            <a href="">Help</a>
-            <a href="">Be Partner</a>
-            <a href="">About Us</a>
-            <button id="btnLog">Login</button>
-            <button id="btnReg">Register</button>
-        </div>
+  <!-- Navigation Bar -->
+  <div class="navBar">
+    <div>
+      <a id="logo">HOTELIO</a>
+      <a id="subLogo">.com</a>
+    </div>
+    <div class="navLinks">
+      <a href="">Home</a>
+      <a href="">Help</a>
+      <a href="">Be Partner</a>
+      <a href="">About Us</a>
+      <button id="btnLog">Login</button>
+      <button id="btnReg">Register</button>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="search">
+    <div class="search-text">
+      <h1>Find The Best Hotel<br>With <span style="color: gold;">HOTELIO</span></h1>
+      <p>Discover comfortable stays, exclusive deals, and unforgettable experiences at top hotels only with HOTELIO.</p>
     </div>
 
-    <!-- Search -->
-    <div class="search">
-      <div class="search-text">
-        <h1>Find The Best Hotel<br>With <span style="color: gold;">HOTELIO</span></h1>
-        <p>Discover comfortable stays, exclusive deals, and unforgettable experiences at top hotels only with HOTELIO.</p>
+    <div class="search-box">
+      <div class="search-item">
+        <label>Location</label>
+        <input type="text" value="Wonosobo">
       </div>
+      <div class="search-item">
+        <label>Person</label>
+        <input type="text" value="2 People">
+      </div>
+      <div class="search-item">
+        <label>Type</label>
+        <input type="text" value="Luxury Hotel">
+      </div>
+      <button class="search-btn">Search</button>
+    </div>
+  </div>
 
-      <div class="search-box">
-        <div class="search-item">
-          <label>Location</label>
-          <input type="text" value="Wonosobo">
-        </div>
-        <div class="search-item">
-          <label>Person</label>
-          <input type="text" value="2 People">
-        </div>
-        <div class="search-item">
-          <label>Type</label>
-          <input type="text" value="Luxury Hotel">
-        </div>
-        <button class="search-btn">Search</button>
-      </div>
+  <!-- Hotel Section -->
+  <section class="hotel-section">
+    <div class="hotel-header">
+      <h2>OUR MOST AMAZING VISITED HOTEL ON 2025</h2>
+      <p>Take a look our best choice for the hotels of the year, we pick the hotels from our amazing visitor</p>
     </div>
 
-    <!-- Hotel Section -->
-    <section class="hotel-section">
-      <div class="hotel-header">
-        <h2>OUR MOST AMAZING VISITED HOTEL ON 2025</h2>
-        <p>Take a look our best choice for the hotels of the year, we pick the hotels from our amazing visitor</p>
-      </div>
+    <div class="hotel-grid">
+      <!-- Left Big Card -->
+      <a href="" class="hotel-card">
+        <img
+          src="https://images.unsplash.com/photo-1479502806991-251c94be6b15?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Grand Ghifar Hotel">
+        <div class="hotel-info">
+          <h3>Grand Ghifar Hotel</h3>
+          <span class="location">Kertek, Indonesia</span>
+          <div class="stars">
+            <span>★★★★★</span> 5.0 stars rating
+          </div>
+        </div>
+      </a>
 
-      <div class="hotel-grid">
-        <!-- Left Big Card -->
+      <!-- Right side 2 small cards -->
+      <div class="hotel-right">
         <a href="" class="hotel-card">
-          <img src="https://images.unsplash.com/photo-1479502806991-251c94be6b15?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Grand Ghifar Hotel">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzb3J0fGVufDB8MHwwfHx8MA%3D%3D"
+            alt="Ghifar Ocean View Resort">
           <div class="hotel-info">
-            <h3>Grand Ghifar Hotel</h3>
-            <span class="location">Kertek, Indonesia</span>
+            <h3>Ghifar Ocean View Resort</h3>
+            <span class="location">Garung, Indonesia</span>
             <div class="stars">
-              <span>★★★★★</span> 5.0 stars rating
+              <span>★★★★★</span> 4.8 stars rating
             </div>
           </div>
         </a>
-
-        <!-- Right side 2 small cards -->
-        <div class="hotel-right">
-          <a href="" class="hotel-card">
-            <img src="https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzb3J0fGVufDB8MHwwfHx8MA%3D%3D" alt="Ghifar Ocean View Resort">
-            <div class="hotel-info">
-              <h3>Ghifar Ocean View Resort</h3>
-              <span class="location">Garung, Indonesia</span>
-              <div class="stars">
-                <span>★★★★★</span> 4.8 stars rating
-              </div>
+        <a href="" class="hotel-card">
+          <img
+            src="https://images.unsplash.com/photo-1529316275402-0462fcc4abd6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzb3J0fGVufDB8MHwwfHx8MA%3D%3D"
+            alt="Blue Lagoon Hotel">
+          <div class="hotel-info">
+            <h3>Ghifar Blue Lagoon Hotel</h3>
+            <span class="location">Sawangan, Indonesia</span>
+            <div class="stars">
+              <span>★★★★★</span> 4.9 stars rating
             </div>
-          </a>
-          <a href="" class="hotel-card">
-            <img src="https://images.unsplash.com/photo-1529316275402-0462fcc4abd6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzb3J0fGVufDB8MHwwfHx8MA%3D%3D" alt="Blue Lagoon Hotel">
-            <div class="hotel-info">
-              <h3>Ghifar Blue Lagoon Hotel</h3>
-              <span class="location">Sawangan, Indonesia</span>
-              <div class="stars">
-                <span>★★★★★</span> 4.9 stars rating
-              </div>
-            </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 </body>
+
 </html>
